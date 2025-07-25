@@ -1,4 +1,4 @@
-# 🧠 LeetCode Solutions by MichalFog
+# 🧠 LeetCode Solutions by Michal Fogel
 
 Welcome to my curated collection of **LeetCode problem solutions**, organized by topic and written in multiple languages. Each solution is crafted for clarity, efficiency, and long-term reference — whether for learning, interviews, or coding practice.
 
