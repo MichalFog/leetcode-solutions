@@ -1,0 +1,75 @@
+# Explanation: Remove Element
+
+**Problem:** [Remove Element](https://leetcode.com/problems/remove-element)
+
+**Difficulty:** Easy
+
+---
+
+## Description
+
+Given an integer array `nums` and an integer `val`, remove all occurrences of `val` in-place and return the new length of the array.
+
+Do not allocate extra space for another array — you must do this by **modifying the input array in-place** with O(1) extra memory.
+
+The order of elements may be changed. It doesn't matter what you leave beyond the returned length.
+
+---
+
+## Examples
+
+**Example 1**  
+**Input:** `nums = [3,2,2,3], val = 3`  
+**Output:** `2, nums = [2,2,_,_]`  
+**Explanation:** Your function should return `2`, and the first two elements of `nums` should be `2`.
+
+**Example 2**  
+**Input:** `nums = [0,1,2,2,3,0,4,2], val = 2`  
+**Output:** `5, nums = [0,1,3,0,4,_,_,_]`
+
+---
+
+## Approach
+
+We use the **two-pointer** approach:
+
+1. Initialize a pointer `k = 0` to track the position for valid elements.
+2. Iterate through the array:
+   - If `nums[i]` is **not equal** to `val`, it's valid.
+   - Copy it to position `k`, then increment `k`.
+3. At the end, return `k` as the length of the array after removal.
+
+This approach maintains O(n) time and modifies the array in-place.
+
+---
+
+## Time and Space Complexity
+
+- **Time Complexity:** O(n) – one pass over the array.
+- **Space Complexity:** O(1) – no extra memory used.
+
+---
+
+## Code (Java)
+
+```java
+class Solution {
+    public int removeElement(int[] nums, int val) {
+        int k = 0; 
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != val) {
+                nums[k] = nums[i];
+                k++;
+            }
+        }
+        return k;  
+    }
+}
+```
+
+---
+
+## Summary
+
+This is a simple and efficient two-pointer pattern.  
+Instead of creating a new array, we reuse the input and overwrite unwanted values.
