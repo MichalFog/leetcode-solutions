@@ -6,19 +6,18 @@ Welcome to my curated collection of **LeetCode problem solutions**, organized by
 
 ## 📁 Repository Structure
 
-This repository is organized by **topics** (e.g., Array, Dynamic Programming), and each topic contains folders for individual problems. Inside each problem folder, you'll find a Markdown file with an explanation and solution:
-
+```text
 leetcode-solutions/
 ├── Array & String/
-│ ├── Two Sum/
-│ │ └── Explanation & Solution.md
-│ ├── Median of Two Sorted Arrays/
-│ │ └── Explanation & Solution.md
-│ └── ...
+│   ├── Two Sum/
+│   │   └── Explanation & Solution.md
+│   ├── Median of Two Sorted Arrays/
+│   │   └── Explanation & Solution.md
+│   └── ...
 ├── Dynamic Programming/
-│ ├── ...
+│   ├── ...
 ├── Binary Search/
-│ └── ...
+│   └── ...
 
 
 Each `.md` file includes:
