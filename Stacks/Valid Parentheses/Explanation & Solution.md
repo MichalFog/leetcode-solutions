@@ -1,4 +1,3 @@
-
 # Explanation: Valid Parentheses
 
 **Problem:** [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
