@@ -19,7 +19,6 @@ The overall run time complexity should be **O(log (m+n))**.
 **Output:** `2.0`  
 **Explanation:** The merged array is `[1,2,3]`, and the median is `2`.
 
-
 **Input:** `nums1 = [1,2]`, `nums2 = [3,4]`  
 **Output:** `2.5`  
 **Explanation:** The merged array is `[1,2,3,4]`, and the median is `(2 + 3) / 2 = 2.5`.
