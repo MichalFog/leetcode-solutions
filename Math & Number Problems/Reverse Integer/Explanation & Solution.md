@@ -1,4 +1,3 @@
-
 # Explanation: Reverse Integer
 
 **Problem:** [Reverse Integer](https://leetcode.com/problems/reverse-integer)
